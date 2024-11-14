@@ -18,10 +18,10 @@ public class P4 {
         int i=1;
         do{
             System.out.print(first + " ");
+            array[i-1] = first;
             int next = first + second ;
             first = second;
             second = next;
-            array[i-1] = first;
             i++;
 
         }while(i<=n);

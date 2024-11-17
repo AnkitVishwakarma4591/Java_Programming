@@ -1,11 +1,13 @@
-// Create a Fraction class that represents a fraction with numerator and denominator. 
-// Implement methods to perform addition and subtraction between two Fraction objects. 
-// Additionally, implement a method to simplify the fraction to its lowest terms. 
-//  Write a main method to demonstrate these operations.
+/*
+Create a Fraction class that represents a fraction with numerator and denominator. 
+Implement methods to perform addition and subtraction between two Fraction objects. 
+Additionally, implement a method to simplify the fraction to its lowest terms. 
+Write a main method to demonstrate these operations.
+*/
 
 import java.util.*;
 
-class Fraction {
+class Fraction1 {
     int a, b; // Numerators
     int x, y; // Denominators
 
@@ -58,7 +60,7 @@ class Fraction {
     }
 }
 
-public class P11 {
+public class Fraction {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -72,7 +74,7 @@ public class P11 {
         System.out.println("Enter denominator for the second fraction:");
         int y = sc.nextInt();
 
-        Fraction f1 = new Fraction();
+        Fraction1 f1 = new Fraction1();
         f1.a = a;
         f1.x = x;
         f1.b = b;
